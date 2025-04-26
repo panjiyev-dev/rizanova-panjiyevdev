@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rizanova</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="/">
+                        Rizanova
+                    </a>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Asosiy</a></li>
+                        <li><a href="#">Albomlar</a></li>
+                        <li><a href="#">RizaNova XIT-paradi</a></li>
+                        <li><a href="#">To'plamlar</a></li>
+                        <li><a href="#">Ijrochilar</a></li>
+                        <li><a href="#">Kliplar</a></li>
+                        <li><a href="#">Kutubxona</a></li>
+                    </ul>
+                </nav>
+                <div class="header-actions">
+                    <div class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="language-selector">
+                        UZ
+                    </div>
+                    <button class="login-btn">KIRISH</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Hero Carousel -->
+    <div class="hero-carousel">
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="carousel-slide active">
+                    <img src="	https://api.rizanova.uz/uploads/banner/jpg/1745590847318.jpg" alt="Carousel Image">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://api.rizanova.uz/uploads/banner/jpg/1689334906277.jpg" alt="Carousel Image">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://api.rizanova.uz/uploads/banner/jpg/1688384254650.jpg" alt="Carousel Image">
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://api.rizanova.uz/uploads/banner/jpg/1686203231659.jpg" alt="Carousel Image">
+                </div>
+            </div>
+            <button class="carousel-btn prev-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-btn next-btn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <div class="carousel-indicators">
+                <span class="indicator active" data-index="0"></span>
+                <span class="indicator" data-index="1"></span>
+                <span class="indicator" data-index="2"></span>
+                <span class="indicator" data-index="3"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest Releases Section -->
+    <section class="releases-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Oxirgi relizlar</h2>
+                <a href="#" class="view-all">Hammasini ko'rish <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="releases-slider">
+                <button class="slider-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="releases-track">
+                    <div class="release-card">
+                        <div class="card-image">
+                            <img src="https://api.rizanova.uz/uploads/music/jpg/1745483376088.jpg" alt="Sexta">
+                            <div class="year-badge">2023</div>
+                            <div class="play-overlay">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3>Sexta</h3>
+                            <p>SHXZ, Avazbanov</p>
+                        </div>
+                    </div>
+                    <div class="release-card">
+                        <div class="card-image">
+                            <img src="https://api.rizanova.uz/uploads/music/jpg/1744958386936.jpg" alt="Hech kim yo'q">
+                            <div class="year-badge">2023</div>
+                            <div class="play-overlay">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3>Hech kim yo'q</h3>
+                            <p>Konsta</p>
+                        </div>
+                    </div>
+                    <div class="release-card">
+                        <div class="card-image">
+                            <img src="https://api.rizanova.uz/uploads/music/jpg/1745479751931.jpg" alt="Lablaridan">
+                            <div class="year-badge">2023</div>
+                            <div class="play-overlay">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3>Lablaridan</h3>
+                            <p>Zafar Ergashov, Firuz Ruzmetov</p>
+                        </div>
+                    </div>
+                    <div class="release-card">
+                        <div class="card-image">
+                            <img src="https://api.rizanova.uz/uploads/music/jpg/1745483800685.jpg" alt="Qizim">
+                            <div class="year-badge">2023</div>
+                            <div class="play-overlay">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                            </div>
+                        </div>
+                        <div class="card-info">
+                            <h3>Qizim</h3>
+                            <p>Lobarxon</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clips Section -->
+    <section class="clips-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kliplar</h2>
+                <a href="https://rizanova.uz/clip" class="view-all">Hammasini ko'rish <i
+                        class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="clips-slider">
+                <button class="slider-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="clips-track">
+                    <div class="clip-card">
+                        <div class="card-image">
+                            <div class="premiere-badge">PREMYERA</div>
+                            <a target="_blank" href="https://rizanova.uz/clip/7723">
+                                <img src="https://api.rizanova.uz/uploads/video/jpg/1745495243305.jpg" alt="Clip 1">
+                                <div class="play-overlay">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h3>Kuylagim keldi</h3>
+                            <p>Ulug'bek Rahmatullayev</p>
+                        </div>
+                    </div>
+                    <div class="clip-card">
+                        <div class="card-image">
+                            <div class="premiere-badge">PREMYERA</div>
+                            <a target="_blank" href="https://rizanova.uz/clip/7721">
+                                <img src="https://api.rizanova.uz/uploads/video/jpg/1745493509088.jpg" alt="Clip 1">
+                                <div class="play-overlay">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h3>Siqilma</h3>
+                            <p>Mashhur Muhammad</p>
+                        </div>
+                    </div>
+                    <div class="clip-card">
+                        <div class="card-image">
+                            <a target="_blank" href="https://rizanova.uz/clip/7722">
+                                <img src="https://api.rizanova.uz/uploads/video/jpg/1745493531445.jpg" alt="Clip 1">
+                                <div class="play-overlay">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h3>Oynonin</h3>
+                            <p>Bekzod Xakimov</p>
+                        </div>
+                    </div>
+                    <div class="clip-card">
+                        <div class="card-image">
+                            <a target="_blank" href="https://rizanova.uz/clip/7720">
+                                <img src="https://api.rizanova.uz/uploads/video/jpg/1745501454636.jpg" alt="Clip 1">
+                                <div class="play-overlay">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-info">
+                            <h3>Izlab</h3>
+                            <p>Sarvar Akbarov (Sharq guruhi)</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Artists Section -->
+    <section class="artists-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mashhur ijrochilar</h2>
+                <a href="https://rizanova.uz/music/singer" class="view-all">Hammasini ko'rish <i class="fas fa-chevron-right"></i></a>
+            </div>
+            <div class="artists-grid">
+                <div class="artist-card">
+                    <div class="artist-image">
+                        <img src="https://api.rizanova.uz/uploads/video/jpg/1745501454636.jpg" alt="Artist 1">
+                    </div>
+                    <h3>Azizbek Hamidov</h3>
+                </div>
+                <div class="artist-card">
+                    <div class="artist-image">
+                        <img src="https://api.rizanova.uz/uploads/person/jpg/1665924003085.jpg" alt="Artist 2">
+                    </div>
+                    <h3>Shoxruxbek Ergashev</h3>
+                </div>
+                <div class="artist-card">
+                    <div class="artist-image">
+                        <img src="https://api.rizanova.uz/uploads/music/jpg/1637672238918.jpg" alt="Artist 3">
+                    </div>
+                    <h3>Doston Ergashev</h3>
+                </div>
+                <div class="artist-card">
+                    <div class="artist-image">
+                        <img src="https://api.rizanova.uz/uploads/person/jpg/1673529013719.jpg" alt="Artist 4">
+                    </div>
+                    <h3>Gavharoyxonim Ahmedova</h3>
+                </div>
+                <div class="artist-card">
+                    <div class="artist-image">
+                        <img src="https://api.rizanova.uz/uploads/person/jpg/1676290978455.jpg" alt="Artist 5">
+                    </div>
+                    <h3>Shaxri</h3>
+                </div>
+                <div class="artist-card">
+                    <div class="artist-image">
+                        <img src="https://api.rizanova.uz/uploads/person/jpg/1641896541497.jpg" alt="Artist 6">
+                    </div>
+                    <h3>Sarvinoz Ruziyeva</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audio Player -->
+    <div class="audio-player" id="audioPlayer">
+        <div class="container">
+            <div class="player-content">
+                <div class="song-info">
+                    <div class="song-image">
+                        <img src="images/current-song.jpg" alt="Current Song">
+                    </div>
+                    <div class="song-details">
+                        <h4 class="song-title">Kuylagim keldi</h4>
+                        <p class="song-artist">Ulug'bek Rahmatullayev</p>
+                    </div>
+                </div>
+                <div class="player-controls">
+                    <button class="control-btn shuffle-btn">
+                        <i class="fas fa-random"></i>
+                    </button>
+                    <button class="control-btn prev-song-btn">
+                        <i class="fas fa-step-backward"></i>
+                    </button>
+                    <button class="control-btn play-pause-btn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button class="control-btn next-song-btn">
+                        <i class="fas fa-step-forward"></i>
+                    </button>
+                    <button class="control-btn repeat-btn">
+                        <i class="fas fa-redo-alt"></i>
+                    </button>
+                </div>
+                <div class="progress-container">
+                    <span class="current-time">0:00</span>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <span class="total-time">3:45</span>
+                </div>
+                <div class="volume-control">
+                    <button class="volume-btn">
+                        <i class="fas fa-volume-up"></i>
+                    </button>
+                    <div class="volume-slider">
+                        <div class="volume-progress"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="">Rizanova</a>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Rizanova</h3>
+                        <ul>
+                            <li><a href="#">Biz haqimizda</a></li>
+                            <li><a href="#">Aloqa</a></li>
+                            <li><a href="#">Foydalanish shartlari</a></li>
+                            <li><a href="#">Maxfiylik siyosati</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Kategoriyalar</h3>
+                        <ul>
+                            <li><a href="#">Musiqalar</a></li>
+                            <li><a href="#">Kliplar</a></li>
+                            <li><a href="#">Albomlar</a></li>
+                            <li><a href="#">Ijrochilar</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Ilovalar</h3>
+                        <div class="app-links">
+                            <a href="https://play.google.com/store/apps/details?id=uz.rizanova.media" class="app-link">
+                                <img src="https://rizanova.uz/image/google-play-uz.svg" alt="App Store">
+                            </a>
+                            <a href="https://apps.apple.com/uz/app/rizanova/id1620470205" class="app-link">
+                                <img src="https://rizanova.uz/image/app-store-uz.svg" alt="Google Play">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Panjiyevdev. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Audio Element (Hidden) -->
+    <audio id="audioElement" src="music/kuylagim-keldi.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
